@@ -234,10 +234,6 @@ This lesson focuses on accessing the "Titanic: Machine Learning from Disaster" c
 Follow the steps outlined above to access and view the Titanic dataset in Google Colab. Explore the dataset by printing out different aspects of the data, such as column names using [dataframe].columns, data types using [dataframe].dtypes, and summary statistics using [dataframe].describe() .
 
 
-#### Submission:
-
-Submit your Colab notebook showing the executed code and any additional exploration or visualization you performed.
-
 
 ✅ Knowledge Check: What makes Kaggle a unique platform for data scientists?
 
@@ -255,7 +251,3 @@ Submit your Colab notebook showing the executed code and any additional explorat
 - [Collaborative Data Science with Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 - [Kaggle Micro-Courses](https://www.kaggle.com/learn/overview)
 
-
-✅ Knowledge Check Answer Why are Jupyter Notebooks popular in data science? B and C : Jupyter Notebooks are popular in data science primarily because they support the integration of executable code, rich text, and visualizations in a single document (B), and they promote collaboration and reproducibility through easy sharing and remote access (C). While Python is a commonly used language in Jupyter Notebooks, they are not limited to Python and can support other programming languages as well, which makes option A incorrect.
-✅ Knowledge Check: What are the benefits of using Google Colab for collaborative projects?  A and B; A: Google Colab provides free access to GPUs (Graphics Processing Units) and TPUs (Tensor Processing Units), which are essential for high-performance computing tasks, particularly in machine learning and data analysis. B: Google Colab allows users to run Python code in a cloud environment without the need for any local setup. This feature is particularly useful for collaborative projects as it ensures that all collaborators are working in the same environment with the same configurations. C: This option is not correct. Google Colab does not provide exclusive access to Google's internal datasets. However, it does facilitate easy access to datasets available on platforms like Google Drive and GitHub, making it easier to work with external data in collaborative projects.
-✅ Knowledge Check: What makes Kaggle a unique platform for data scientists? A, B and C. Kaggle is unique for data scientists due to its vibrant community collaboration, wide range of real-world data competitions, and extensive access to datasets and shared notebooks.
