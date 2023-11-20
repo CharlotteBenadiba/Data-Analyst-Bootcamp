@@ -18,7 +18,7 @@ This lesson covers the essentials of Jupyter Notebook, Google Colab, and Kaggle.
 ### Preparation
 
 * [Install Anaconda for Jupyter Notebook](https://noteable.io/jupyter-notebook/install-jupyter-notebook/) and scroll down to the Operating System you are using (Apple, Windows or Linux).
-* Create accounts on Google.
+* [Create account on Google](https://accounts.google.com/signup) (if you don't already have one).
 
 ### Useful resources
 
