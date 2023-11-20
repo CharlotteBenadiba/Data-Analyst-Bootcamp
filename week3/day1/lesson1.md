@@ -134,12 +134,13 @@ Understanding the difference between structured and unstructured data is crucial
 **Task**: Below is a mix of structured and unstructured data. Your challenge is to:
    1. Classify each item as structured or unstructured data.
    2. Propose a way to convert the unstructured data into a structured format.
-   3. 
+
 **Data to Classify**:
    A. List of product prices in a CSV file.
    B. Customer feedback comments from a survey.
    C. A graph showing sales over the past year.
-   D. Tweets mentioning a brand.
+   D. Tweets mentioning brand.
+
 ---
 
 
