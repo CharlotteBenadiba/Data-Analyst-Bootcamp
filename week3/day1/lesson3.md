@@ -67,10 +67,10 @@ Understanding the difference between structured and unstructured data is crucial
    2. Propose a way to convert the unstructured data into a structured format.
 
 **Data to Classify**:
-   A. List of product prices in a CSV file.
-   B. Customer feedback comments from a survey.
-   C. A graph showing sales over the past year.
-   D. Tweets mentioning brand.
+  - A. List of product prices in a CSV file.
+  - B. Customer feedback comments from a survey.
+  - C. A graph showing sales over the past year.
+  - D. Tweets mentioning brand.
 
 ---
 
