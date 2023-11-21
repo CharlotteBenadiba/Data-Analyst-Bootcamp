@@ -24,7 +24,7 @@ This lesson delves into the fundamental concepts of data analysis, its significa
 
 ### Useful resources
 
-* [Data Analysis Techniques - Online Resource](https://www.example.com/data-analysis-techniques)
+* [Types of Data Analysis](https://medium.com/@datasciencewizards/types-of-data-analysis-8dfa9457db36)
 
 <br>
 
