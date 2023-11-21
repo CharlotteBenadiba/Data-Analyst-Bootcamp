@@ -4,7 +4,7 @@
 
 - Core concepts of data analysis
 - Different types of data: qualitative and quantitative
-- Main types of data analysis techniques
+- Four main types of data analysis techniques
 - Applications of data analysis in various fields
 - The concept of data-driven decision making
 
@@ -30,7 +30,7 @@ This lesson delves into the fundamental concepts of data analysis, its significa
 
 ---
 
-## Overview and Significance of Data Analysis
+## Understanding Core Concepts and Types of Data in Analysis
 
 ### Task:
 
@@ -44,6 +44,7 @@ There is two primary types of data encountered in data analysis: qualitative and
 Understanding the difference between these types of data is crucial in selecting the right analysis techniques and interpreting the results accurately.
 
 ---
+## Exploring the Four Core Techniques of Data Analysis
 
 ### Task:
 Now, Let's introduces four main types of data analysis techniques:
@@ -60,6 +61,7 @@ Now, Let's introduces four main types of data analysis techniques:
 Understanding these techniques is fundamental to apply the right approach according to the data and the problem at hand.
 
 ---
+## Applications of data analysis in various fields
 ### Task:
 Data analysis finds applications in numerous fields, significantly impacting how decisions are made and operations are conducted. Here are a few examples:
 
@@ -71,6 +73,7 @@ Data analysis finds applications in numerous fields, significantly impacting how
 In each of these fields, data analysis helps in identifying trends, making predictions, and optimizing processes.
 
 ---
+## The concept of data-driven decision making
 ### Task:
 Data-driven decision making involves making decisions backed by verifiable data. The benefits of this approach include:
 
