@@ -52,7 +52,7 @@ Understanding the difference between structured and unstructured data is crucial
 - **Why It Matters**: Different tools and techniques are required for each type of data. Recognizing which type you're dealing with helps in selecting the right analytical approach, ensuring more accurate and meaningful insights.
 
 ---
-###✅ Knowledge Check - Understanding Structured and Unstructured Data
+✅ Knowledge Check - Understanding Structured and Unstructured Data
 
 1. **Question**: Can you identify which of the following is structured data and which is unstructured data?
    - A database of customer transactions
@@ -60,6 +60,7 @@ Understanding the difference between structured and unstructured data is crucial
    - An Excel spreadsheet of employee attendance records
    - A set of customer reviews on various products
 
+---
 ###🚀 Challenge: Classify and Convert
 
 **Task**: Below is a mix of structured and unstructured data. Your challenge is to:
