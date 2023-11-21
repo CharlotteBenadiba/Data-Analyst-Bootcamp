@@ -42,6 +42,7 @@ There is two primary types of data encountered in data analysis: qualitative and
 - **Quantitative Data**: Numerical data that can be measured and quantified. Examples include sales numbers, temperatures, and age.
 
 Understanding the difference between these types of data is crucial in selecting the right analysis techniques and interpreting the results accurately.
+
 ---
 
 ### Task:
@@ -84,8 +85,8 @@ Data-driven decision making involves making decisions backed by verifiable data.
 
 Data-driven decision making is transforming how organizations operate and compete in the modern business landscape.
 
-
-### ✅ Knowledge Check and 🚀 Challenge
+---
+#### ✅ Knowledge Check and 🚀 Challenge
 
 To ensure a deep understanding of the concepts covered in this lesson, consider the following questions:
 
@@ -101,5 +102,5 @@ To ensure a deep understanding of the concepts covered in this lesson, consider 
 
 
 
-
+---
 
