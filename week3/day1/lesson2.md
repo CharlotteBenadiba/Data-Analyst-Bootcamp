@@ -43,6 +43,8 @@ There is two primary types of data encountered in data analysis: qualitative and
 
 Understanding the difference between these types of data is crucial in selecting the right analysis techniques and interpreting the results accurately.
 
+✅ Knowledge Check : Can you differentiate between a qualitative and a quantitative data example? For instance, how would you categorize customer feedback and annual revenue figures?
+
 ---
 ## Exploring the Four Core Techniques of Data Analysis
 
@@ -60,6 +62,8 @@ Now, Let's introduces four main types of data analysis techniques:
 
 Understanding these techniques is fundamental to apply the right approach according to the data and the problem at hand.
 
+✅ Knowledge Check: Which data analysis technique would be most appropriate for the following scenario: A company wants to understand the average spending habits of its customers?
+
 ---
 ## Applications of data analysis in various fields
 ### Task:
@@ -71,6 +75,7 @@ Data analysis finds applications in numerous fields, significantly impacting how
 - **Technology**: Used in product development, user experience optimization, and innovation.
 
 In each of these fields, data analysis helps in identifying trends, making predictions, and optimizing processes.
+✅ Knowledge Check:  Give an example of how predictive analysis can be utilized in the healthcare sector.
 
 ---
 ## The concept of data-driven decision making
@@ -88,20 +93,12 @@ Data-driven decision making involves making decisions backed by verifiable data.
 
 Data-driven decision making is transforming how organizations operate and compete in the modern business landscape.
 
+✅ Knowledge Check : How might a finance company use prescriptive analysis to improve its services or offerings?
+
 ---
-#### ✅ Knowledge Check and 🚀 Challenge
+####  🚀 Challenge
 
-To ensure a deep understanding of the concepts covered in this lesson, consider the following questions:
-
-1. **Data Types**: Can you differentiate between a qualitative and a quantitative data example? For instance, how would you categorize customer feedback and annual revenue figures?
-
-2. **Analysis Techniques**: Which data analysis technique would be most appropriate for the following scenario: A company wants to understand the average spending habits of its customers?
-
-3. **Application in Fields**: Give an example of how predictive analysis can be utilized in the healthcare sector.
-
-4. **Decision Making**: How might a finance company use prescriptive analysis to improve its services or offerings?
-
-5. **Reflective Question**: Think about a recent decision you made, either personally or professionally. How could data analysis have improved the decision-making process or the outcome of that decision?
+**Reflective Question**: Think about a recent decision you made, either personally or professionally. How could data analysis have improved the decision-making process or the outcome of that decision?
 
 
 
