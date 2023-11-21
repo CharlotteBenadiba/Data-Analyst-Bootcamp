@@ -1,6 +1,6 @@
 # Lesson 2: Overview and Significance of Data Analysis
 
-## What you will learn
+## What you will learn 
 
 - Core concepts of data analysis
 - Different types of data: qualitative and quantitative
