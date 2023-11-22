@@ -1,0 +1,15 @@
+
+##Knowledge Check solutions
+
+- Database of customer transactions: Structured Data
+- Collection of tweets about a trending topic: Unstructured Data
+- Excel spreadsheet of employee attendance records: Structured Data
+- Set of customer reviews on various products: Unstructured Data
+   
+##challenge solutions
+
+
+   - A. Structured (Already in a structured format - CSV file)
+   - B. Unstructured (Could be structured by categorizing comments into predefined sentiment categories like positive, negative, and neutral)
+   - C. Structured (Graphs are a visual representation of structured data)
+   - D. Unstructured (Can be converted into structured data by extracting specific information like hashtags, mentions, or sentiment)
