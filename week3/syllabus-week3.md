@@ -20,17 +20,15 @@
 - **Lesson 7: Exporting Data**
   - Formats, best practices, and practical exercises.
 
-## Day 4: Basic Insights from Datasets
-- **Lesson 8: Exploratory Data Analysis**
-  - Techniques to gain basic insights.
-- **Lesson 9: Visualization Techniques**
-  - Using graphs and charts for data representation.
-
-## Day 5: Cleaning and Preparing the Data
+## Day 4: Cleaning and Preparing the Data
 - **Lesson 10: Identifying and Handling Missing Values**
   - Techniques and importance of handling missing data.
 - **Lesson 11: Preparing Data for Analysis**
   - Data transformation and normalization techniques.
+
+## Day 5: Mini-project
+-**Lesson 12: Jupyter, Colab, Kaggle
+
 
 
 
