@@ -13,21 +13,22 @@
   - Detailed walkthrough of each step.
 - **Lesson 5: Dataset Generation**
   - Techniques and best practices for generating datasets.
+- **Lesson 6: Jupyter, Colab, Kaggle**
 
 ## Day 3: Importing and Exporting Data
-- **Lesson 6: Importing Data**
+- **Lesson 7: Importing Data**
   - Tools and methods for data import.
-- **Lesson 7: Exporting Data**
+- **Lesson 8: Exporting Data**
   - Formats, best practices, and practical exercises.
 
 ## Day 4: Cleaning and Preparing the Data
-- **Lesson 10: Identifying and Handling Missing Values**
+- **Lesson 9: Identifying and Handling Missing Values**
   - Techniques and importance of handling missing data.
-- **Lesson 11: Preparing Data for Analysis**
+- **Lesson 10: Preparing Data for Analysis**
   - Data transformation and normalization techniques.
 
 ## Day 5: Mini-project
--**Lesson 12: Jupyter, Colab, Kaggle
+
 
 
 
