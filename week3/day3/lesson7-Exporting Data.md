@@ -1,4 +1,4 @@
-# Lesson 8: Exporting Data
+# Lesson : Exporting Data
 
 In this lesson, we explore various methods and best practices for exporting data from Python environments like Jupyter Notebook, Colab, and Kaggle. We'll cover different formats and practical exercises for effective data export.
 
@@ -175,7 +175,7 @@ Understanding these options and customizations is key to effectively managing an
 ---
 ## Conclusion
 
-And that's a wrap on Lesson 8! 🎉 We've journeyed through the world of data exporting, learning to master formats like CSV, JSON, and Excel in Python environments. From crafting neat CSV files for tabular data to exploring the depths of JSON for nested structures, and even juggling multiple sheets in Excel - we've covered it all!
+And that's a wrap on Lesson 7! 🎉 We've journeyed through the world of data exporting, learning to master formats like CSV, JSON, and Excel in Python environments. From crafting neat CSV files for tabular data to exploring the depths of JSON for nested structures, and even juggling multiple sheets in Excel - we've covered it all!
 
 Remember, whether it's a simple dataset for a report or complex data for web APIs, choosing the right format and tweaking those export parameters makes all the difference. 
 
