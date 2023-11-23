@@ -1,37 +1,13 @@
 # Lesson: Data Transformation
 
 ## Table of Contents
-1. Data Integration
-2. Data Normalization
-3. Data Reduction
-4. Data Aggregation
+1. Data Normalization
+2. Data Reduction
+3. Data Aggregation
 
 ---
 
-## 1. Data Integration
-
-### What is Data Integration?
-Data integration involves combining data from different sources into a unified dataset. It helps gather more information and context for analysis and modeling.
-
-### Example: Integrating Data with Titanic Dataset
-Let's say we have additional data about passengers' demographics and we want to integrate it with the Titanic dataset. Here's how to do it:
-```python
-# Load additional dataset (hypothetical example)
-passenger_demographics = pd.read_csv('passenger_demographics.csv')
-
-# Perform data integration (merge datasets on a common key)
-integrated_data = pd.merge(titanic_data, passenger_demographics, on='PassengerId', how='left')
-
-# Explore the integrated dataset
-print(integrated_data.head())
-```
-✅ Knowledge Check : What is the common key used for merging the Titanic dataset with the additional demographic data in the example?
-    A. 'PassengerName'
-    B. 'Age'
-    C. 'TicketNumber'
-    D. 'PassengerId'
-
-## 2. Data Normalization
+## 1. Data Normalization
 ### What is Data Normalization?
 
 Data normalization is the process of rescaling data to have values between 0 and 1. It helps bring data on different scales to a standard scale, making it easier to compare and analyze.
@@ -48,7 +24,7 @@ After running this code, the 'Age' column in the titanic_data DataFrame will be 
 
 ✅ Knowledge Check : What is the purpose of Min-Max normalization?
 
-## 3. Data Reduction
+## 2. Data Reduction
 ### What is Data Reduction?
 
 Data reduction involves reducing the volume but producing the same or similar analytical results. It helps in handling large datasets efficiently.
@@ -71,7 +47,7 @@ This code performs dimensionality reduction using PCA, reducing the original_dat
 ✅ Knowledge Check : In the provided code, what does the 'reduced_data' variable represent after applying PCA with two components?
 
 ---
-## 4. Data Aggregation
+## 3. Data Aggregation
 ### What is Data Aggregation?
 
 Data aggregation involves combining multiple data points into a single data point to simplify analysis. It is often used in summarizing and reporting data.
@@ -93,7 +69,7 @@ Dataset Description:
 - Dataset Link: [Short-term Daily Precipitation Forecasting](https://www.kaggle.com/muthuj7/weather-dataset)
 - This dataset contains daily precipitation forecasts for multiple locations.
 
-Data Integration
+Data Exploration
 1. Load the "Short-term Daily Precipitation Forecasting" dataset.
 2. Explore the dataset and understand its structure.
 Data Normalization
