@@ -3,9 +3,9 @@
 In this lesson, we're going to delve into the art and science of dataset generation. This is a crucial skill in data science, as having the right dataset is often the key to successful analyses and model training.
 
 ## What You Will Learn
-- Techniques for generating datasets.
-- Best practices to ensure the quality and relevance of generated data.
-- Hands-on exercises for practical experience.
+- Techniques for generating datasets (Synthetic Data Generation, Data Augmentation, Simulation-Based Generation, Crowdsourcing)
+- Best Practices in Dataset Generation
+- Hands-On Exercise: Dataset Creation
 
 ### Introduction
 Generating a dataset involves creating a set of data from scratch or modifying existing datasets to suit specific needs. This process is essential in situations where real-world data is not available or insufficient.
@@ -47,7 +47,8 @@ print(df.head())
 In this example, we use Faker to generate a list of names and numpy to create random ages, mimicking a simple dataset of individuals.
 
 ✅ Knowledge Check: Why might synthetic data be preferable in certain scenarios over real-world data?
-#### 🚀 Challenge: Creating a Synthetic Sales Dataset
+
+🚀 Challenge: Creating a Synthetic Sales Dataset
 
 **Objective**: Your task is to generate a synthetic dataset that represents sales data for a retail store. This exercise will test your skills in applying statistical methods and using Python libraries to create data that mimics real-world scenarios.
 
