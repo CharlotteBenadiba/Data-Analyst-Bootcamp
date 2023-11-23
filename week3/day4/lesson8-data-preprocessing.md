@@ -1,11 +1,16 @@
 # Lesson 8 : Data Preprocessing
 
+## What you will learn
+
 Data preprocessing is a fundamental step in any data science project. It involves preparing and cleaning raw data to make it suitable for analysis and modeling. 
 In this lesson, using the Titanic dataset as an example, we'll explore the essential steps of data preprocessing : 
 - Gathering and exploring the Data
 - Data Integration
 - Data Cleaning
 
+### Useful resources
+
+* [Data Preprocessing: The Art of Data Cleaning and Preparation](https://medium.com/@Ambarish_224/data-preprocessing-the-art-of-data-cleaning-and-preparation-fae31a1991f7))
 
 ---
 ## Topic 1: Data Gathering and Exploration
