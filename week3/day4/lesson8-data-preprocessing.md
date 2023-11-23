@@ -10,7 +10,7 @@ In this lesson, using the Titanic dataset as an example, we'll explore the essen
 
 ### Useful resources
 
-* [Data Preprocessing: The Art of Data Cleaning and Preparation](https://medium.com/@Ambarish_224/data-preprocessing-the-art-of-data-cleaning-and-preparation-fae31a1991f7))
+* [Data Preprocessing: The Art of Data Cleaning and Preparation](https://medium.com/@Ambarish_224/data-preprocessing-the-art-of-data-cleaning-and-preparation-fae31a1991f7)
 
 ---
 ## Topic 1: Data Gathering and Exploration
