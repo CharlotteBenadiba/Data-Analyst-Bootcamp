@@ -13,7 +13,7 @@ In this lesson, using the Titanic dataset as an example, we'll explore the essen
 * [Data Preprocessing: The Art of Data Cleaning and Preparation](https://medium.com/@Ambarish_224/data-preprocessing-the-art-of-data-cleaning-and-preparation-fae31a1991f7)
 
 ---
-## Topic 1: Data Gathering and Exploration
+## 1. Data Gathering and Exploration
 
 ### Why Data Preprocessing?
 
@@ -66,7 +66,7 @@ Please select the correct answers by marking the appropriate option for each que
 
 ---
 
-## Topic 2: Data Integration
+## 2. Data Integration
 
 What is Data Integration?
 
@@ -100,7 +100,7 @@ print(integrated_data.head())
 
 ---
 
-## Topic 3: Data Cleaning
+## 3. Data Cleaning
 
 Data cleaning is the process of identifying and correcting errors and inconsistencies in the dataset. It involves several sub-steps:
   - Removing Duplicates
