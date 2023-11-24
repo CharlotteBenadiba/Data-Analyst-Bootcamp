@@ -12,7 +12,7 @@ files.upload()
 !kaggle datasets download osmi/mental-health-in-tech-survey
 !unzip mental-health-in-tech-survey.zip
 
-titanic_data = pd.read_csv("train.csv")
+titanic_data = pd.read_csv('train.csv')
 
 #Data Exploration
 print("Data Structure:")
