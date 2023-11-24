@@ -1,30 +1,32 @@
 # Daily challenge: Titanic Dataset Analysis
 ---
-## Daily Challenge
-### Instructions
+### What you will learn 
 
-**Step 1: Import Libraries**
-```python
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
-
-**Step 2: Load the Dataset**
-Using Kaggle, import in a csv file the titanic dataset on your notebook using this link : [Titanic dataset](brendan45774/test-file)
-
-
+- basic applications of data analysis
+  
 ---
 ### Your Task
+
+- Load and explore the dataset
+- Analyze Data Types in the Dataset using `.dtypes`
+- Identify Qualitative and Quantitative Data Columns
+- Calculate and print the survival rate.
+- Analyze and print the class distribution.
+- Visualize survival count by class and by gender using seaborn like so :
+  ```python
+  sns.catplot(x="...", hue="...", kind="count", data=...)
+  plt.title("...")
+  plt.show()
+  ```
 
 ---
 
 ### Duration & Difficulty
-| Duration (approx) | Difficulty |
-|-------------------|------------|
-| 1 hour            | ⭐         |
+| Duration (approx)    | Difficulty |
+|----------------------|------------|
+| 40 minutes           |     ⭐     |
 
 ---
-### Submit your Daily Challenge :
+### Submit your Daily Challenge 
 
 Don’t forget to push to Github!
