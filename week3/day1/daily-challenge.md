@@ -10,8 +10,8 @@
 - Load and explore the dataset
 - Analyze Data Types in the Dataset using `.dtypes`
 - Identify Qualitative and Quantitative Data Columns
-- Calculate and print the survival rate.
-- Analyze and print the class distribution.
+- Calculate and print the survival rate with`.mean()`.
+- Analyze and print the class distribution using `.value_counts()`.
 - Visualize survival count by class and by gender using seaborn like so :
   ```python
   sns.catplot(x="...", hue="...", kind="count", data=...)
