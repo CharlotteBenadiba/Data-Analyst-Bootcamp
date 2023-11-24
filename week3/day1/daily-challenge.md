@@ -7,9 +7,9 @@
 ---
 ### Your Task
 
-- Load and explore the dataset
-- Analyze Data Types in the Dataset using `.dtypes`
-- Identify Qualitative and Quantitative Data Columns
+- Load and Explore the dataset.
+- Analyze Data Types in the Dataset using `.dtypes`.
+- Identify Qualitative and Quantitative Data Columns.
 - Calculate and print the survival rate with`.mean()`.
 - Analyze and print the class distribution using `.value_counts()`.
 - Visualize survival count by class and by gender using seaborn like so :
