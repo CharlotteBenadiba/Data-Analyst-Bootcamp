@@ -39,7 +39,22 @@ In this section, we delve into the core concepts of data analysis, emphasizing i
 There is two primary types of data encountered in data analysis: qualitative and quantitative data.
 
 - **Qualitative Data**: Non-numerical data that can be observed but not measured. Examples include descriptions, opinions, and text data.
+
+    In Python, especially in pandas, qualitative data is typically represented by the `object` data type (for text/string data) or `category` when optimized for memory usage. Sometimes, integers (like `int64`) can also represent categorical data when they are codes or labels for categories (e.g., 1 for "Male", 2 for "Female").
+  ```python
+  # To get the columns that are have qualitative data
+  qualitative_columns = data.select_dtypes(include=['object']).columns
+  ```
 - **Quantitative Data**: Numerical data that can be measured and quantified. Examples include sales numbers, temperatures, and age.
+
+    In Python and pandas, quantitative data is usually represented as:
+    - `int64`: For discrete numerical data (integers).
+    - `float64`: For continuous numerical data (real numbers).
+    Occasionally, `int32`, `float32`, etc., can be used for less precision or memory optimization.
+  ```python
+  # To get the columns that are have quantitative data
+  quantitative_columns = titanic_data.select_dtypes(include=['float64', 'int64']).columns
+  ```
 
 Understanding the difference between these types of data is crucial in selecting the right analysis techniques and interpreting the results accurately.
 
