@@ -18,7 +18,18 @@ def show_images(original, augmented, title):
     plt.show()
 
 # Load a sample image - replace 'path_to_dataset' with the actual path
-path_to_dataset = 'path_to_your_dataset'  # Example: 'data/flower_images'
+!pip install kaggle
+#import kaggle
+from google.colab import files
+files.upload()
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!kaggle datasets download olgabelitskaya/flower-color-images
+!unzip flower-color-images.zip
+
+# Load a sample image from the unzipped dataset
+path_to_dataset = '/content'  # Path to the unzipped dataset folder
 image_path = os.path.join(path_to_dataset, '0001.png')  # Sample image
 original_image = Image.open(image_path)
 
