@@ -98,8 +98,50 @@ Let's consider an example of image data augmentation. Suppose you have a dataset
 Your original dataset may have images of cats in specific poses or backgrounds, limiting the model's ability to generalize to new situations.
 Data augmentation techniques for images may include:
 - Rotating images by various angles.
+  ```python
+  # to randomly rotate the image by an angle between -20 to +20 degrees.
+  from tensorflow.keras.preprocessing.image import ImageDataGenerator
+  data_generator = ImageDataGenerator(rotation_range=20)
+
+  # to rotate the image buy exactly 30 degrees
+  from scipy.ndimage import rotate
+  def rotate_image_30_degrees(image):
+    # Rotate image by 30 degrees
+    return rotate(image, 30, reshape=False, mode='nearest')
+   #  Create ImageDataGenerator with custom preprocessing function
+   data_generator = ImageDataGenerator(preprocessing_function=rotate_image_30_degrees)
+   ```
 - Flipping images horizontally or vertically.
+  ```python
+  from tensorflow.keras.preprocessing.image import ImageDataGenerator
+  data_generator = ImageDataGenerator(vertical_flip=True) # to flip vertically
+  data_generator = ImageDataGenerator(horizontal_flip=True) # to flip horizontally
+  #You can also combine both :
+  data_generator = ImageDataGenerator(horizontal_flip=True, vertical_flip=True)
+  ```
 - Changing the brightness and contrast of images.
+  ```python
+  #the brightness of each image will be randomly changed to a value between 50% (darker) and 150% (brighter) of the original brightness.
+  data_generator = ImageDataGenerator(brightness_range=(0.5, 1.5))
+
+  #Adjusting Contrast
+  from PIL import ImageEnhance, Image
+   import numpy as np
+
+   def adjust_contrast(image):
+       # Convert the image to PIL format
+       pil_img = Image.fromarray((image * 255).astype(np.uint8))
+       # Enhance the contrast
+       contrast = ImageEnhance.Contrast(pil_img)
+       pil_img_enhanced = contrast.enhance(2.0)  # Adjust 2.0 for desired contrast
+       # Convert back to numpy array
+       return np.array(pil_img_enhanced) / 255.0
+  
+  # Create ImageDataGenerator with custom contrast adjustment
+   data_generator = ImageDataGenerator(preprocessing_function=adjust_contrast)
+     ```
+
+
 
 By applying these transformations to your original images, you can generate a larger and more diverse dataset.
 This helps your model become robust to variations in cat poses, backgrounds, and lighting conditions.
