@@ -11,7 +11,7 @@
 - Load and Visualize Images using the [Flower Color Images dataset](https://www.kaggle.com/datasets/olgabelitskaya/flower-color-images)
 - Rotate an image by 90 degrees
 - Flip an image horizontally and then vertically.
-- Zoom in on an image (scale by 1.2x)
+- Zoom in on an image (scale by 1.2x) using `.resize(...)`
 - Display the original and augmented images side by side for comparison using this function :
   ```python
   import matplotlib.pyplot as plt
