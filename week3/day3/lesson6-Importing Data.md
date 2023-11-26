@@ -6,6 +6,10 @@
 - Handling various data formats like CSV, JSON, and Excel.
 - Advanced techniques and common challenges in data import.
 
+## Ressources
+
+[How to import data in python.](https://medium.com/analytics-vidhya/how-to-import-data-in-python-94eda177078d)
+
 ### Introduction
 This comprehensive lesson dives into the world of data import, a foundational skill in data science. We'll explore robust methods for importing data across different platforms like Jupyter Notebook, Colab, and Kaggle, catering to various data formats.
 
