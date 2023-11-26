@@ -19,7 +19,7 @@
 ### Duration & Difficulty
 | Duration (approx)    | Difficulty    |
 |----------------------|---------------|
-| 1 hour 30 minutes    |     ⭐⭐⭐⭐⭐    |
+| 1 hour 30 minutes    |     ⭐⭐    |
 
 ---
 ### Submit your Daily Challenge 
