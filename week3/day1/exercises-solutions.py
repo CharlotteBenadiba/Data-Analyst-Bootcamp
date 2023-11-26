@@ -158,6 +158,36 @@ for profile in profiles:
 
 ################# Exercise 5
 
+#expliquer .map 
+
+# Import necessary library
+import pandas as pd
+
+# Load the Titanic dataset
+# Replace 'titanic_dataset.csv' with the path to your downloaded Titanic dataset
+titanic_data = pd.read_csv('train.csv')
+
+# Check the first few rows to understand the current format of the sex column
+print("Original data:")
+print(titanic_data.head())
+
+# Transform the 'sex' column
+# Assuming 'sex' is represented by 0s and 1s, where 0 = female and 1 = male
+# Update this logic if the dataset uses different representations
+titanic_data['sex'] = titanic_data['sex'].map({0: 'female', 1: 'male'})
+
+# Verify the transformation
+print("\nTransformed data:")
+print(titanic_data.head())
+
+# Save the transformed dataset to a new CSV file
+titanic_data.to_csv('transformed_titanic_dataset.csv', index=False)
+
+print("\nTransformed dataset saved as 'transformed_titanic_dataset.csv'")
+
+
+################# Exercise 6
+
 import numpy as np # linear algebra
 import pandas as pd # data manipulation and analysisimport matplotlib.pyplot as plt # data visualization
 import seaborn as sns # data visualizationsns.set_style('whitegrid') # set style for visualizationimport warnings # ignore warnings
