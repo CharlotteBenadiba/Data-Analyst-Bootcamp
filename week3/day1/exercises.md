@@ -66,8 +66,15 @@ with open('user_profiles.csv', mode='w', newline='', encoding='utf-8') as file:
 ```
 
 ---
+## Exercise 5: Transforming Qualitative Data into Quantitative Data with the Titanic Dataset
 
-## Exercise 5: Exploratory Data Analysis (Hard)
+- Download the Titanic dataset from a source like Kaggle or any other open data platform.
+- Load the dataset into a Python environment using Pandas.
+- Transform the sex column, to represent 0 as 'female' and 1 for 'male' using `.map` function.
+
+---
+
+## Exercise 6: Exploratory Data Analysis (Hard)
 
 ### Objective: Implement a data-driven decision-making process.
 Exploratory Data Analysis (EDA) is a process in data analysis where various techniques are used to understand, summarize, and visualize the underlying structure and characteristics of a dataset. 
