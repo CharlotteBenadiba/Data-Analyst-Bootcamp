@@ -11,15 +11,12 @@
 - Normalize the 'salary' column using Min-Max normalization.
 - Implement dimensionality reduction on the dataset.
 - Aggregate data by 'experience_level', calculating average and median salaries.
-- Merge this dataset with another related dataset of your choice for deeper insights.
-- Clean the integrated dataset by handling missing values and renaming columns.
-- Create visualizations to represent your findings and analysis.
 
 ---
 ### Duration & Difficulty
 | Duration (approx)    | Difficulty    |
 |----------------------|---------------|
-| 1 hour 30 minutes    |     ⭐⭐    |
+| 30 minutes    |     ⭐⭐    |
 
 ---
 ### Submit your Daily Challenge 
