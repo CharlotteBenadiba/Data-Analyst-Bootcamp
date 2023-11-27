@@ -8,7 +8,6 @@
 Using the Wine Quality dataset, explore the following questions:
 - How do different chemical properties correlate with the quality of wine?
 - Is there a significant difference in quality between red and white wines?
-- What chemical characteristics are most important in predicting a higher quality wine?
 
 ## Resources
 Use the [Wine Quality dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009) available on Kaggle.
